@@ -1,1 +1,23 @@
-{}
+{
+	"RUNE_WORD_v1_State": "Состояние",
+	"RUNE_WORD_v1_State_ToolTip": "Полное отключение или включение рун",
+	"RUNE_WORD_v1_Runes": "Руны",
+	"RUNE_WORD_v1_Spawn_Time": "Время спавна",
+	"RUNE_WORD_v1_Spawn_Time_Tooltip": "Показывать следующее время спавна рун",
+	"RUNE_WORD_v1_Ping_Minimap": "Пинг на миникарте",
+	"RUNE_WORD_v1_Ping_Minimap_Tooltip": "Показывать пинги на миникарте\n до появление новых рун (видите только вы)",
+	"RUNE_WORD_v1_Ping_Minimap_Turn_Off_By_Time": "Отключить пинги (по времени)",
+	"RUNE_WORD_v1_Ping_Minimap_Turn_Off_By_Time_Tooltip": "Отключить пинги на миникарте\nпосле (x) игровового времени (минуты)",
+	"RUNE_WORD_v1_Rune_Regeneration": "Регенерация",
+	"RUNE_WORD_v1_Rune_Double_Damage": "Двойной урон",
+	"RUNE_WORD_v1_Rune_Invisibility": "Невидимость", 
+	"RUNE_WORD_v1_Rune_Arcane": "Волшебство", 
+	"RUNE_WORD_v1_Rune_Haste": "Ускорение", 
+	"RUNE_WORD_v1_Rune_Illusion": "Иллюзия", 
+	"RUNE_WORD_v1_Rune_Water": "Вода", 
+	"RUNE_WORD_v1_Rune_Bounty": "Баунти",
+	"RUNE_WORD_v1_Rune_Xp": "Мудрость",
+	"RUNE_WORD_v1_Rune_Shield": "Щит",
+	"RUNE_WORD_v1_Spawn_Time_Size": "Размер текста на спавнере",
+	"RUNE_WORD_v1_Spawn_Time_Size_Tooltip": "Размер текста на спавнере рун"
+}

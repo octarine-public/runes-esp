@@ -16,7 +16,7 @@ export class MenuRuneType {
 
 		this.State = this.Tree.AddToggle("State", true)
 		this.Mode = this.Tree.AddDropdown("Display mode", ["2D", "3D"], 0)
-		this.ImageSize = this.Tree.AddSlider("Size", 0, 0, 30)
+		this.ImageSize = this.Tree.AddSlider("Size", 10, 0, 30)
 		this.ImageSize.IsHidden = true
 
 		this.Mode.OnValue(call => {

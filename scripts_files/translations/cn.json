@@ -1,1 +1,23 @@
-{}
+{
+	"RUNE_WORD_v1_State": "State",
+	"RUNE_WORD_v1_Runes": "Runes",
+	"RUNE_WORD_v1_State_ToolTip": "Full turn off or turn on runes",
+	"RUNE_WORD_v1_Spawn_Time": "Spawn time",
+	"RUNE_WORD_v1_Spawn_Time_Tooltip": "Show next rune spawn time",
+	"RUNE_WORD_v1_Ping_Minimap": "Ping on minimap",
+	"RUNE_WORD_v1_Ping_Minimap_Tooltip": "Show pings on minimap\nuntil new runes appear (only you see)",
+	"RUNE_WORD_v1_Ping_Minimap_Turn_Off_By_Time": "Disable pings (by time)",
+	"RUNE_WORD_v1_Ping_Minimap_Turn_Off_By_Time_Tooltip": "Disable minimap pings\nafter (x) game time (minutes)",
+	"RUNE_WORD_v1_Rune_Regeneration": "Regeneration",
+	"RUNE_WORD_v1_Rune_Double_Damage": "Double Damage",
+	"RUNE_WORD_v1_Rune_Invisibility": "Invisibility", 
+	"RUNE_WORD_v1_Rune_Arcane": "Arcane", 
+	"RUNE_WORD_v1_Rune_Haste": "Haste", 
+	"RUNE_WORD_v1_Rune_Illusion": "Illusion", 
+	"RUNE_WORD_v1_Rune_Water": "Water", 
+	"RUNE_WORD_v1_Rune_Bounty": "Bounty",
+	"RUNE_WORD_v1_Rune_Xp": "Wisdom",
+	"RUNE_WORD_v1_Rune_Shield": "Shield",
+	"RUNE_WORD_v1_Spawn_Time_Size": "Size text on spawner",
+	"RUNE_WORD_v1_Spawn_Time_Size_Tooltip": "Rune spawner text size"
+}
