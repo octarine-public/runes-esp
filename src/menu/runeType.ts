@@ -33,11 +33,11 @@ export class MenuRuneType {
 		this.ImageSize = this.Tree.AddSlider("Size", 10, 0, 30)
 		this.ImageSize.IsHidden = true
 
-		this.Mode.OnValue(call => {
-			this.ImageSize.IsHidden = call.SelectedID !== 0
-			this.ImageSize.Update()
-			this.Tree.Update()
-		})
+		// this.Mode.OnValue(call => {
+		// 	this.ImageSize.IsHidden = call.SelectedID !== 0
+		// 	this.ImageSize.Update()
+		// 	this.Tree.Update()
+		// })
 	}
 
 	public get RuneName(): string {
