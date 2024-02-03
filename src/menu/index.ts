@@ -120,10 +120,8 @@ export class MenuManager {
 	}
 
 	protected CreateMenuRuneTypes(node: Menu.Node) {
-		for (let index = 0; index < this.runeDataMenu.length; index++) {
-			const runeMenu = this.runeDataMenu[index]
-			const nodeName = runeMenu.nodeName
-			const runeType = runeMenu.runeType
+		for (const runeMenu of this.runeDataMenu) {
+			const { nodeName, runeType } = runeMenu
 			this.RuneTypeMenu.set(runeType, new MenuRuneType(runeType, node, nodeName))
 		}
 	}

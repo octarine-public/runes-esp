@@ -7,6 +7,20 @@ export class MenuRuneType {
 
 	protected readonly Tree: Menu.Node
 
+	private static readonly RuneNames: { [key: number]: string } = {
+		[-1]: "unknown",
+		[0]: "doubledamage",
+		[1]: "haste",
+		[2]: "illusion",
+		[3]: "invis",
+		[4]: "regen",
+		[5]: "bounty",
+		[6]: "arcane",
+		[7]: "water",
+		[8]: "xp",
+		[9]: "shield"
+	}
+
 	constructor(
 		public readonly Type: DOTA_RUNES,
 		node: Menu.Node,
@@ -26,31 +40,8 @@ export class MenuRuneType {
 		})
 	}
 
-	public get RuneName() {
-		switch (this.Type) {
-			case DOTA_RUNES.DOTA_RUNE_DOUBLEDAMAGE:
-				return "doubledamage"
-			case DOTA_RUNES.DOTA_RUNE_HASTE:
-				return "haste"
-			case DOTA_RUNES.DOTA_RUNE_ILLUSION:
-				return "illusion"
-			case DOTA_RUNES.DOTA_RUNE_INVISIBILITY:
-				return "invis"
-			case DOTA_RUNES.DOTA_RUNE_REGENERATION:
-				return "regen"
-			case DOTA_RUNES.DOTA_RUNE_BOUNTY:
-				return "bounty"
-			case DOTA_RUNES.DOTA_RUNE_ARCANE:
-				return "arcane"
-			case DOTA_RUNES.DOTA_RUNE_WATER:
-				return "water"
-			case DOTA_RUNES.DOTA_RUNE_XP:
-				return "xp"
-			case DOTA_RUNES.DOTA_RUNE_SHIELD:
-				return "shield"
-			default:
-				return "unknown"
-		}
+	public get RuneName(): string {
+		return MenuRuneType.RuneNames[this.Type] || "unknown"
 	}
 
 	public OnMenuChanged(callback: () => void) {
